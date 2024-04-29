@@ -9,10 +9,10 @@ while(true) {
     if(req == "list") {
     for(let i=0; i<list.length; i++) {
         console.log(i,list[i]);
-    }
+    } 
         console.log("list was printed");
     } else if(req == "add") {
-       let task = prompt("please enter your task");
+       let task = prompt("Please describe the task you'd like assistance with");
        list.push(task);
        console.log('task added');
     } else if(req == "delete") {
